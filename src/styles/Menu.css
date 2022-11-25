@@ -1,0 +1,146 @@
+.menu {
+    width: 90%;
+    height: auto;
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+    place-items: start start;
+    /* margin: 40px; */
+    padding: 4%;
+    flex-direction: column;
+  }
+  .menuTitle {
+    justify-self: center;
+    align-self: center;
+    font-family: cursive;
+    font-size: 40px;
+  }
+  
+  .menuList {
+    width: auto;
+    height: auto;
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    place-items: center;
+  }
+  
+  
+  .menuRow {
+    /* background-color: rgb(224, 241, 235); */
+    height: auto;
+    display: grid;
+    grid-template-columns: 1.4fr 1fr;
+    
+  }
+  .menuRow_4 {
+    /* background-color: rgb(155, 241, 131); */
+    height: auto;
+    display: grid;
+    grid-template-columns: 1.3fr 1.7fr 1.2fr 1fr;
+    grid-auto-flow: row;
+    margin: 1em;
+  }
+  
+  /* MENU ITEM STYLING */
+  
+  .menuItem {
+    border-radius: 15px;
+    /* display: flex;
+    flex-direction: column; */
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    width: auto;
+    height: auto;
+    margin: 15px;
+    padding: 10px;
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+  }
+
+  .menuItemLeft {
+    width: auto;
+    height: 300px;
+    margin: 10px;
+    margin-right: 50px;
+    margin-bottom: 10px;
+    /* background-color: blueviolet; */
+    align-self: center;
+    
+    /* display: flex;
+    flex-direction: column; */
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+
+  .menuItemName {
+    align-content: center;
+    text-align: center;
+  }
+  .menuItem:hover {
+    box-shadow: 0px 3px 25px rgba(219, 26, 26, 0.575);
+    transition: 0.1s ease-in;
+    cursor: pointer;
+  }
+  
+  .menuItem div {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    width: 100%;
+    height: 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .menuItem h1,
+  .menuItem p {
+    margin-left: 20px;
+  }
+  
+  @media only screen and (max-width: 1300px) {
+    .menuList {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+  
+  @media only screen and (max-width: 800px) {
+    .menuList {
+      grid-template-columns: 1fr;
+    }
+  }
+
+/* additional css*/
+  .chartItem {
+    border-radius: 15px;
+    display: block;
+    margin: auto auto;
+    width: 200px;
+    height: 200px;
+  }
+
+  .donutCharts {
+    /* background-color: rgb(243, 236, 180); */
+    /* height: auto; */
+    
+    margin: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-self: start;
+    align-self: start;
+    
+    border-radius: 25px;
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+  }
+
+  .durHistory {
+    /* background-color: rgb(210, 200, 200); */
+    
+    margin: 20px;
+    width: 300px;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+  }
+
+  .test {
+    /* width: 1fr; */
+  }
+
